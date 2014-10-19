@@ -5,6 +5,7 @@
     "keywords": ["library", "php", "cache"],
     "homepage": "https://github.com/pavel-u/InCache",
     "license": "BSD",
+	"version" : "0.0.1",
 
     "require": {
         "php": ">=5.4.0",
