@@ -1,5 +1,5 @@
 {
-    "name": "incache",
+    "name": "pavel-u/InCache",
     "description": "Cache wrapper.",
     "type": "library",
     "keywords": ["library", "php", "cache"],
