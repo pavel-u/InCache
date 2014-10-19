@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<cache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../lib/InCache/cache.xsd">
+    <config>
+        <argument name="cacheDir" value="/var/www/cache/_cache"/>
+    </config>
+    <types>
+        <type name="file" driver="\Stash\Driver\FileSystem" pool="\Stash\Pool" />
+    </types>
+    <evict
+        class="Vendor\TestClass"
+        method="testEvictMethod"
+        key="someCacheIdentifier"
+        type="file"
+    />
+    <caching
+        class="Vendor\TestClass"
+        method="testMethod"
+        ttl="5"
+        type="file"
+        key="someCacheIdentifier"
+    />
+    <caching
+        class="Vendor\TestClass"
+        method="testMethod2"
+        ttl="5"
+        type="file"
+    />
+</cache>

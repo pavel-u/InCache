@@ -1,0 +1,32 @@
+<?php
+return array (
+  'Vendor\\TestClass' =>
+  array (
+    'testEvictMethod' =>
+    array (
+      'class' => 'Vendor\\TestClass',
+      'method' => 'testEvictMethod',
+      'key' => 'someCacheIdentifier',
+      'type' => 'file',
+      'action' => 'evict',
+    ),
+    'testMethod' =>
+    array (
+      'class' => 'Vendor\\TestClass',
+      'method' => 'testMethod',
+      'ttl' => 5,
+      'type' => 'file',
+      'key' => 'someCacheIdentifier',
+      'action' => 'cache',
+    ),
+    'testMethod2' =>
+    array (
+      'class' => 'Vendor\\TestClass',
+      'method' => 'testMethod2',
+      'ttl' => 5,
+      'type' => 'file',
+      'key' => '',
+      'action' => 'cache',
+    ),
+  ),
+);

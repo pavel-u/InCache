@@ -1,0 +1,33 @@
+{
+    "name": "InCache",
+    "description": "Cache wrapper.",
+    "type": "library",
+    "keywords": ["library", "php", "cache"],
+    "homepage": "https://github.com/pavel-u/InCache",
+    "license": "BSD",
+
+    "require": {
+        "php": ">=5.4.0",
+        "symfony/filesystem" : "2.5.3",
+        "bartlett/php-reflect": "1.9.0",
+        "tedivm/stash": "0.12.*"
+    },
+    "authors": [
+        {
+            "name": "Pavel Yukhnevich",
+            "homepage": "https://github.com/pavel-u"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "InCache\\": "src/InCache"
+        }
+    },
+    "require-dev": {
+        "phpspec/phpspec": "dev-master",
+        "phpmd/phpmd" : "@stable"
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}

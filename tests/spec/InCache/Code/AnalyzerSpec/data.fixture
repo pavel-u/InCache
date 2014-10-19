@@ -1,0 +1,44 @@
+<?php
+return array (
+  'Vendor' =>
+  array (
+    'TestClass' =>
+    array (
+      'trait' => false,
+      'interface' => false,
+      'parent' => 'SomeParent',
+      'interfaces' => ['SomeInterface1', 'SomeInterface2'],
+      'package' =>
+      array (
+        'namespace' => 'Vendor',
+        'fullPackage' => '',
+        'category' => '',
+        'package' => '',
+        'subpackage' => '',
+      ),
+      'methods' =>
+      array (
+        '__construct' =>
+        array (
+          'signature' => '__construct()',
+          'visibility' => 'public',
+        ),
+        'testMethod' =>
+        array (
+          'signature' => 'testMethod($a = 1)',
+          'visibility' => 'public',
+        ),
+        'testMethod2' =>
+        array (
+          'signature' => 'testMethod2($a = 2)',
+          'visibility' => 'public',
+        ),
+        'testEvictMethod' =>
+        array (
+          'signature' => 'testEvictMethod($a = 3)',
+          'visibility' => 'public',
+        ),
+      ),
+    ),
+  ),
+);
