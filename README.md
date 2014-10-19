@@ -91,5 +91,7 @@ Here is an example of config file
   </cache>
   
   ```
+  
+  Cache Driver MUST implements `Stash\Interfaces\DriverInterface` interface. Cache Pool MUST implements `Stash\Interfaces\PoolInterface`
 
 Also, you could always check [XSD file](https://github.com/pavel-u/InCache/blob/master/src/InCache/cache.xsd) which will provide you more datails about DSL.
